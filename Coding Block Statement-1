@@ -1,0 +1,32 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class BlockStatement_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String name;
+		int age ;
+		double salary, loanamount, year, month, installment;
+		System.out.println("Enter your name :");
+		name = sc.nextLine();
+		System.out.println("Enter your age :");
+		age = sc.nextInt();
+		System.out.println("Enter your monthly salary :");
+		salary = sc.nextDouble();
+			if(age>=20&&salary>=5000) {
+		System.out.println("You are able to apply the loan");
+		System.out.println("Enter your loan amount :");
+		loanamount = sc.nextDouble();
+		System.out.println("How many years you want to pay in installment :");
+		year = sc.nextDouble();
+		month = year*12;
+		installment = loanamount/month;
+		System.out.println("You need to pay "+installment +" per month in "+year+" years");
+			}else
+			System.out.println("You are not qualifed to apply the loan");
+		sc.close();
+	}
+
+}
+
