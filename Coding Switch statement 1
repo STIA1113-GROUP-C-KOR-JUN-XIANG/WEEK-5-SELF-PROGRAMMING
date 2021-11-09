@@ -1,0 +1,61 @@
+package SelfProgramming;
+
+public class SwitchStatement_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 2;
+	      switch(x)
+	      {
+	         case 0:
+	            System.out.println("0");
+	         case 1:
+	            System.out.println("1");
+	         case 2:
+	            System.out.println("2");
+	      }
+	      
+		 int i = 5;
+	      switch(i)
+	      {
+	         case 0:
+	            System.out.println("0");
+	         case 1:
+	            System.out.println("1");
+	         case 2:
+	            System.out.println("2");
+	         default:
+	            System.out.println("default");
+	      }
+	      
+	      int y = 2;
+	      switch(y)
+	      {
+	         case 0:
+	            System.out.println("0");
+	         case 1:
+	            System.out.println("1");
+	         case 2:
+	            System.out.println("2");
+	            break;
+	         case 3:
+	        	System.out.println("3");
+	      }
+	      
+	      int z = 18;
+	      switch(z)
+	      {
+	         case 0:
+	            System.out.println("0");
+	         case 1:
+	            System.out.println("1");
+	         case 2:
+	            System.out.println("2");
+	         case 3:
+	        	System.out.println("3");
+	         default :
+	        	 System.out.println("haha");
+	      }
+	}
+
+}
