@@ -1,0 +1,31 @@
+Output 1 :
+Enter your name :
+ahmad
+Enter your age :
+15
+Enter your monthly salary :
+5600
+You are not qualifed to apply the loan
+
+Output 2 :
+Enter your name :
+ahmad 
+Enter your age :
+24
+Enter your monthly salary :
+4500
+You are not qualifed to apply the loan
+
+Output 3 :
+Enter your name :
+ahmad
+Enter your age :
+26
+Enter your monthly salary :
+5600
+You are able to apply the loan
+Enter your loan amount :
+25000
+How many years you want to pay in installment :
+6
+You need to pay 347.22222222222223 per month in 6.0 years
