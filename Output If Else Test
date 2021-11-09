@@ -1,0 +1,26 @@
+Output 1 :
+Enter your name :
+ahmad
+Enter your age :
+18
+Enter your monthly salary :
+6500
+You are not qualifed to apply the loan
+
+Output 2 :
+Enter your name :
+ahmad
+Enter your age :
+25
+Enter your monthly salary :
+4000
+You are not qualifed to apply the loan
+
+Output 3 :
+Enter your name :
+ahmad
+Enter your age :
+24
+Enter your monthly salary :
+6500
+You are qualified to apply the loan
