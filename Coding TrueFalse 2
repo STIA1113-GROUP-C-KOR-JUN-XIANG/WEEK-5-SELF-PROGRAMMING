@@ -1,0 +1,20 @@
+package SelfProgramming;
+import java.util.Scanner;
+public class RelationLogicalOptest_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int year,month,date;
+		System.out.println("Enter a year :");
+		year = sc.nextInt();
+		System.out.println("Enter a month :");
+		month = sc.nextInt();
+		System.out.println("Enter a date :");
+		date = sc.nextInt();
+		System.out.println((year<=1582)&&(month<=10)&&(date<15));
+		sc.close();
+
+	}
+
+}
