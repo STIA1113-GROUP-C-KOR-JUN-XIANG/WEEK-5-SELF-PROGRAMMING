@@ -1,0 +1,17 @@
+Output 1 :
+Enter a year :
+1492
+Enter a month :
+2
+Enter a date :
+15
+false
+
+Output 2 :
+Enter a year :
+1455
+Enter a month :
+5
+Enter a date :
+12
+true
